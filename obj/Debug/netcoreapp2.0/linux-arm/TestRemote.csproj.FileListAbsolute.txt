@@ -1,0 +1,14 @@
+C:\Users\cedric\Documents\TestRemote\bin\Debug\netcoreapp2.0\linux-arm\libhostpolicy.so
+C:\Users\cedric\Documents\TestRemote\bin\Debug\netcoreapp2.0\linux-arm\libhostfxr.so
+C:\Users\cedric\Documents\TestRemote\bin\Debug\netcoreapp2.0\linux-arm\TestRemote
+C:\Users\cedric\Documents\TestRemote\bin\Debug\netcoreapp2.0\linux-arm\TestRemote.deps.json
+C:\Users\cedric\Documents\TestRemote\bin\Debug\netcoreapp2.0\linux-arm\TestRemote.runtimeconfig.json
+C:\Users\cedric\Documents\TestRemote\bin\Debug\netcoreapp2.0\linux-arm\TestRemote.runtimeconfig.dev.json
+C:\Users\cedric\Documents\TestRemote\bin\Debug\netcoreapp2.0\linux-arm\TestRemote.dll
+C:\Users\cedric\Documents\TestRemote\bin\Debug\netcoreapp2.0\linux-arm\TestRemote.pdb
+C:\Users\cedric\Documents\TestRemote\obj\Debug\netcoreapp2.0\linux-arm\TestRemote.csprojAssemblyReference.cache
+C:\Users\cedric\Documents\TestRemote\obj\Debug\netcoreapp2.0\linux-arm\TestRemote.csproj.CoreCompileInputs.cache
+C:\Users\cedric\Documents\TestRemote\obj\Debug\netcoreapp2.0\linux-arm\TestRemote.AssemblyInfoInputs.cache
+C:\Users\cedric\Documents\TestRemote\obj\Debug\netcoreapp2.0\linux-arm\TestRemote.AssemblyInfo.cs
+C:\Users\cedric\Documents\TestRemote\obj\Debug\netcoreapp2.0\linux-arm\TestRemote.dll
+C:\Users\cedric\Documents\TestRemote\obj\Debug\netcoreapp2.0\linux-arm\TestRemote.pdb

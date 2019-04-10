@@ -1,0 +1,83 @@
+{
+    // Use IntelliSense to find out which attributes exist for C# debugging
+    // Use hover for the description of the existing attributes
+    // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+    //                "pipeProgram": "${env:ProgramFiles}\\Putty\\PLINK.EXE"
+    "version": "0.2.0",
+   "configurations": [
+       
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/bin/Debug/netcoreapp2.2/TestRemote.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        },
+        {
+            "name": "Debug Pi Dotnet Build",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "/home/pi/dotnet/dotnet",
+            "args": ["/home/pi/Desktop/TestRemote/TestRemote.dll"],
+            "cwd": "/home/pi/Desktop/TestRemote",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "pipeTransport": {
+                "pipeCwd": "${workspaceFolder}",
+                "pipeProgram": "c:\\Program Files\\Putty\\PLINK.EXE",
+                "pipeArgs": [
+                    "-pw",
+                    "raspberry",
+                    "root@192.168.1.210"
+                ],
+                "debuggerPath": "/home/pi/vsdbg/vsdbg"
+            }
+        },
+        {
+            "name": "Debug Pi Dotnet Publish",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "publish",
+            "program": "/home/pi/dotnet/dotnet",
+            "args": ["/home/pi/Desktop/TestRemote/TestRemote.dll"],
+            "cwd": "/home/pi/Desktop/TestRemote",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "pipeTransport": {
+                "pipeCwd": "${workspaceFolder}",
+                "pipeProgram": "c:\\Program Files\\Putty\\PLINK.EXE",
+                "pipeArgs": [
+                    "-pw",
+                    "raspberry",
+                    "root@192.168.1.210"
+                ],
+                "debuggerPath": "/home/pi/vsdbg/vsdbg"
+            }
+        },
+        {
+            "name": "Pi Dotnet Publish",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "publish",
+            "program": "/home/pi/dotnet/dotnet",
+            "args": ["/home/pi/Desktop/TestRemote/TestRemote.dll"],
+            "cwd": "/home/pi/Desktop/TestRemote",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+        }
+        ,]
+    }

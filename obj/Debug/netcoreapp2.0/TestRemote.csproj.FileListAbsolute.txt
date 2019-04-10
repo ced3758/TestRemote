@@ -1,0 +1,11 @@
+C:\Users\cedric\Documents\TestRemote\bin\Debug\netcoreapp2.0\TestRemote.deps.json
+C:\Users\cedric\Documents\TestRemote\bin\Debug\netcoreapp2.0\TestRemote.runtimeconfig.json
+C:\Users\cedric\Documents\TestRemote\bin\Debug\netcoreapp2.0\TestRemote.runtimeconfig.dev.json
+c:\Users\cedric\Documents\TestRemote\bin\Debug\netcoreapp2.0\TestRemote.dll
+c:\Users\cedric\Documents\TestRemote\bin\Debug\netcoreapp2.0\TestRemote.pdb
+c:\Users\cedric\Documents\TestRemote\obj\Debug\netcoreapp2.0\TestRemote.csprojAssemblyReference.cache
+c:\Users\cedric\Documents\TestRemote\obj\Debug\netcoreapp2.0\TestRemote.csproj.CoreCompileInputs.cache
+c:\Users\cedric\Documents\TestRemote\obj\Debug\netcoreapp2.0\TestRemote.AssemblyInfoInputs.cache
+c:\Users\cedric\Documents\TestRemote\obj\Debug\netcoreapp2.0\TestRemote.AssemblyInfo.cs
+c:\Users\cedric\Documents\TestRemote\obj\Debug\netcoreapp2.0\TestRemote.dll
+c:\Users\cedric\Documents\TestRemote\obj\Debug\netcoreapp2.0\TestRemote.pdb
